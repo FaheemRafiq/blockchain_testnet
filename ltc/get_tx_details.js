@@ -51,7 +51,7 @@ async function getTxDetails(txHash) {
 }
 
 // Example Usage: Replace with an actual Litecoin testnet transaction hash
-const exampleTxHash = '822a084efab2335e39ccf7489f6f81a69593afa8f7b917ca208f8eb955fe1462'; // This is the txId from the previous successful transaction
+const exampleTxHash = '2bdb5c5177e9fcc5d857a9318d2cdd19dc19d27f1d805ab1f668a0211a66e0d4'; // This is the txId from the previous successful transaction
 
 getTxDetails(exampleTxHash)
   .then(() => {

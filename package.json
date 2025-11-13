@@ -11,13 +11,16 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.91.8",
     "axios": "^1.13.2",
     "bitcoinjs-lib": "^7.0.0",
+    "bitcore-lib-doge": "^10.10.5",
     "bitcore-lib-ltc": "^10.10.5",
+    "bitcore-mnemonic": "^10.10.7",
+    "bs58": "^6.0.0",
     "ecpair": "^3.0.0",
     "tiny-secp256k1": "^2.2.4",
-    "tronweb": "^6.1.0",
-    "@solana/web3.js": "^1.91.8",
-    "bs58": "^6.0.0"
+    "tronweb": "^6.1.0"
   }
 }
